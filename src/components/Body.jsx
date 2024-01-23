@@ -31,7 +31,7 @@ const Main = () => {
   return (
     <>
       <Box>
-        <Image src='../assets/banner.jpeg' alt='banner' w={'100%'} h={'97vh'} pt={'64px'} />
+        <Image src='../assets/banner.jpeg' alt='banner' w={'100%'} h={{base: '40vh', md: '80vh', lg: '97vh'}} pt={'64px'} />
       </Box>
       <Box display='flex' flexDirection='column' alignItems='center' bg={'#005B72'} w={'100%'} py={8}>
         <Text as='span' color='#fff' fontSize={'2.5rem'} fontWeight={'700'} letterSpacing={'1px'}>

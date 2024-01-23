@@ -1,6 +1,7 @@
 import { Flex, Image, Text } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import React from 'react';
+import Titles from './Titles';
 
 const Cardnotice = () => {
   const news = [
@@ -24,6 +25,7 @@ const Cardnotice = () => {
 
   return (
     <>
+      <Titles title={'MURAL DE AVISOS'} />
       <Flex gap={8} py={4} flexWrap={'wrap'}>
         {news.map((item, index) => (
           <motion.div

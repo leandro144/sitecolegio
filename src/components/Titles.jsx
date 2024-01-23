@@ -1,3 +1,4 @@
+// components/Titles.js
 import { Box, Flex, Text } from '@chakra-ui/react';
 import React from 'react';
 
@@ -12,17 +13,16 @@ const Titles = ({ title }) => {
       <Text
         as="h1"
         color="#F9BE00"
-        fontSize={{ base: '2rem', sm: '2.5rem', md: '3rem' }}
+        fontSize={{ base: '1.5rem', md: '2.5rem' }}
         fontWeight="700"
         letterSpacing="1px"
         my={4}
-        textAlign="center"
         _before={{
           content: '""',
           position: 'absolute',
           top: '100%',
           left: '0',
-          width: { base: '100%', sm: '80%', md: '70%' },
+          width: { base: '80px', md: '120px' },
           height: '2px',
           background: '#FFF',
         }}
@@ -31,7 +31,7 @@ const Titles = ({ title }) => {
           position: 'absolute',
           top: '100%',
           right: '0',
-          width: { base: '80%', md: '70%', lg: '50%' },
+          width: { base: '80px', md: '120px' },
           height: '2px',
           background: '#FFF',
         }}

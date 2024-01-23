@@ -7,12 +7,9 @@ import Cardnotice from './Cardnotice';
 const Noticeboard = () => {
   return (
     <>
-      <Box bg={'#00B2A6'} py={8} margin={'0 auto'}>
-        <Titles title={'MURAL DE AVISOS'} />
-        <Flex>
-          <Flex maxW={'1150px'} margin={'0 auto'} justifyContent={'center'} flexWrap={'wrap'} py={8}>
-            <Cardnotice />
-          </Flex>
+      <Box bg={'#00B2A6'} py={8} margin={'0 auto'} textAlign="center">
+        <Flex maxW={'1150px'} margin={'0 auto'} justifyContent={'center'} flexWrap={'wrap'} py={8}>
+          <Cardnotice />
         </Flex>
       </Box>
     </>
