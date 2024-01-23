@@ -12,11 +12,11 @@ const Footer = () => {
             <Flex maxW={'1150px'} margin={'0 auto'} justifyContent={'center'} gap={8} textAlign={'center'} py={8} color={'#fff'}>
                 <Flex flexDir={'column'} gap={4}>
                     <Text fontSize={'1.2rem'}>Matrículas 2024</Text>
-                    <Link href='/' bg={'none'} color={'#fff'} border={'1px solid #F9BE00'} p={'.425rem 1rem'} cursor={'pointer'}>Clique aqui!</Link>
+                    <Link href='/matriculas' bg={'none'} color={'#fff'} border={'1px solid #F9BE00'} p={'.425rem 1rem'} cursor={'pointer'}>Clique aqui!</Link>
                 </Flex>
                 <Flex flexDir={'column'} gap={4}>
                     <Text fontSize={'1.2rem'}>Fale Conosco</Text>
-                    <Link href='/' bg={'none'} color={'#fff'} border={'1px solid #F9BE00'} p={'.425rem 1rem'} cursor={'pointer'}>Clique aqui!</Link>
+                    <Link href='/contato' bg={'none'} color={'#fff'} border={'1px solid #F9BE00'} p={'.425rem 1rem'} cursor={'pointer'}>Clique aqui!</Link>
                 </Flex>
             </Flex>
         </Box>
