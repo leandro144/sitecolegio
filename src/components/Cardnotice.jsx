@@ -26,7 +26,7 @@ const Cardnotice = () => {
   return (
     <>
       <Titles title={'MURAL DE AVISOS'} />
-      <Flex gap={8} py={4} justifyContent={'center'} flexWrap={'wrap'}>
+      <Flex gap={8} py={10} justifyContent={'center'} flexWrap={'wrap'}>
         {news.map((item, index) => (
           <motion.div
             key={index}

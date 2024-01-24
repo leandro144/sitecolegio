@@ -7,9 +7,9 @@ const Header = () => {
 
   return (
     <Box as='header' position='fixed' top='0' left='0' right='0' zIndex='999' bgColor='white'>
-      <Flex justifyContent='space-between' alignItems='center' margin='0 auto' padding='.625rem 0' maxW='1150px' w='100%'>
+      <Flex justifyContent='space-between' alignItems='center' margin='0 auto' padding='.425rem 0' maxW='1150px' w='100%'>
         <Box>
-          <Image w='98px' h='45px' src='/assets/logo.png' alt='logo-DB' />
+          <Image w='100px' h='45px' src='/assets/logo.png' alt='logo-DB' />
         </Box>
         <Flex gap={8} alignItems='center' display={{ base: 'none', md: 'flex' }}>
           <Link bg='#F9BE00' p={4} href='/'>
