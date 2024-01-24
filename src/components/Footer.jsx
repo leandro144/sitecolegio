@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
         <Box bg={'#005B72'} py={8}>
-            <Flex maxW={'1150px'} margin={'0 auto'} justifyContent={'center'}>
+            <Flex id='contato' maxW={'1150px'} margin={'0 auto'} justifyContent={'center'}>
                 <Titles title={'CONTATO'} />
             </Flex>
             <Flex maxW={'1150px'} margin={'0 auto'} justifyContent={'center'} gap={8} textAlign={'center'} py={8} color={'#fff'}>
